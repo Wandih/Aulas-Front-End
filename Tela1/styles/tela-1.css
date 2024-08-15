@@ -1,8 +1,14 @@
+html{
+    width: 100%;
+    float: none;
+    
+}
 
 
 
 body{
-    
+    float: none;
+    box-sizing: border-box;
     background-image: linear-gradient(to top left, #7A50B4, #4187D2);
     height: 100vh;
     margin: 0;
@@ -11,6 +17,11 @@ body{
 }
 
 .login{
+    
+    height: auto;
+    width: 20%;
+    float: none;
+    box-sizing: border-box;
     background-color: white;
     text-align: center;
     margin:25px 750px;
@@ -21,6 +32,11 @@ body{
 
 
 input{
+    
+    width: 100%;
+    display: flex;
+    float: none;
+    box-sizing: border-box;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -36,9 +52,19 @@ input:focus{
 }
 
 button{
+    text-align: center;
+
+    height:50px;
+    width: 100%;
+    display: inline-block;
+    float: none;
+    margin: 0;
+    box-sizing: border-box;
     background-image: linear-gradient(to top left, #7A50B4, #4187D2);
-    padding: 10px 70px;
+    padding: 0;
+    text-align: center;
     color: white;
+    line-height: 50px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -46,9 +72,17 @@ button{
    
 }
 
-@media (max-width: 800px) {
-  .login {
-    display: none;
-  }
+button:focus{
+    outline: none;
 }
 
+button:hover{
+    
+    background-color: blue;
+}
+
+@media (max-width: 800px) and (orientation: landscape){
+    .facet_sidebar {
+      display: none;
+    }
+  }
