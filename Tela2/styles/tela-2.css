@@ -2,9 +2,10 @@ html{
     text-align: center;
     background-color: white;
     background-image: url("/Tela2/portrait-smile-street-woman.jpg");
-    background-size: 55%;
+    background-size: 1000px;
     background-position: right;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body{
@@ -43,12 +44,12 @@ input{
 
 .btn2{
     height:50px;
-    line-height: 1.8;
+    
     display: inline-block;
     float: none;
     margin: 0;
     box-sizing: border-box;
-    background-color: darkblue;
+    background-color: #395797;
     padding: 1px;
     padding-right: 150px;
     text-align: center;
@@ -67,7 +68,7 @@ input{
     float: none;
     margin: 0;
     box-sizing: border-box;
-    background-color: lightblue;
+    background-color:#1da1f2;
     padding: 1px;
     padding-right: 150px;
     text-align: center;
@@ -86,7 +87,7 @@ input{
     float: none;
     margin: 0;
     box-sizing: border-box;
-    background-color: red;
+    background-color:#f05042;
     padding: 1px;
     padding-right: 150px;
     text-align: center;
