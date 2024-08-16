@@ -1,7 +1,68 @@
 html{
-    background-color: rgba(0, 0, 0, 0.801);
+        text-align: left;
+        font-size: small;
+        background-color: rgba(0, 0, 0, 0.801);
+        background-image: url("/Tela3/Captura\ de\ tela\ 2024-08-16\ 190549.png");
+        background-size: 1000px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    
 }
 
 body{
+    border-radius: 0.1cm;
     background-color: black;
+    width: 42%;
+    height: 100%;
+    background-position: center;
+    padding-top: 20px;
+    
+    
+    margin-bottom: 0;
+    
+    
 }
+
+.inp1{
+    height:50px;
+    padding-right: 600px;
+    background-color: #231E1E;
+    border-color: white;
+    border-radius: 0.1cm;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.inp2{
+    height:50px;
+    padding-right: 210px;
+    background-color: #231E1E;
+    border-color: white;
+    border-radius: 0.1cm;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.inp3{
+    height:50px;
+    padding-right: 660px;
+    background-color: #231E1E;
+    border-color: white;
+    border-radius: 0.1cm;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+button{
+    
+    height:50px;
+    padding-right: 600px;
+    background-color: #231E1E;
+    border-color: white;
+    border-radius: 0.1cm;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
