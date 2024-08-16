@@ -52,7 +52,7 @@ input:focus{
 }
 
 button{
-    text-align: center;
+    
 
     height:50px;
     width: 100%;
@@ -81,8 +81,4 @@ button:hover{
     background-color: blue;
 }
 
-@media (max-width: 800px) and (orientation: landscape){
-    .facet_sidebar {
-      display: none;
-    }
-  }
+
