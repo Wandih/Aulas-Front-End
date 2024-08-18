@@ -12,6 +12,7 @@ html{
 }
 
 body{
+    
     border-radius: 0.1cm;
     background-color: black;
     width: 42%;
@@ -26,18 +27,21 @@ body{
 }
 
 .inp1{
+
     height:50px;
-    padding-right: 600px;
+    flex-grow: 1;
     background-color: #231E1E;
     border-color: white;
     border-radius: 0.1cm;
     display: inline-block;
     box-sizing: border-box;
+    
 }
 
 .inp2{
+
+    flex-grow: 1;
     height:50px;
-    padding-right: 210px;
     background-color: #231E1E;
     border-color: white;
     border-radius: 0.1cm;
@@ -46,23 +50,36 @@ body{
 
 }
 .inp3{
+    
+    flex-grow: 1;
     height:50px;
-    padding-right: 660px;
     background-color: #231E1E;
     border-color: white;
     border-radius: 0.1cm;
     display: inline-block;
     box-sizing: border-box;
+
+    
 }
 
 button{
     
+    flex-grow: 1;
     height:50px;
-    padding-right: 600px;
     background-color: #231E1E;
     border-color: white;
-    border-radius: 0.1cm;
     display: inline-block;
     box-sizing: border-box;
+    padding-inline: 10%;
+    border: 0;
+    
 }
+
+.flex-container{
+    display: flex;
+}
+
+
+
+
 

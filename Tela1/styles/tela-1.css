@@ -17,7 +17,7 @@ body{
 }
 
 .login{
-    
+    flex-grow: 1;
     height: auto;
     width: 20%;
     float: none;
@@ -27,12 +27,13 @@ body{
     margin:25px 750px;
     padding: 100px;
     border-radius: 10px;
+    
 }
 
 
 
 input{
-    
+    flex-grow: 1;
     width: 100%;
     display: flex;
     float: none;
@@ -53,7 +54,7 @@ input:focus{
 
 button{
     
-
+    flex-grow: 1;
     height:50px;
     width: 100%;
     display: inline-block;
