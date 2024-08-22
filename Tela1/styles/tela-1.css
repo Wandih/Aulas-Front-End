@@ -13,20 +13,31 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 
+    
 }
 
-.login{
+main{
     flex-grow: 1;
-    height: auto;
+    height: 50%;
     width: 20%;
     float: none;
     box-sizing: border-box;
-    background-color: white;
+    background-color: #fff;
     text-align: center;
     margin:25px 750px;
-    padding: 100px;
+    padding: 90px 90px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba (0, 0, 0, 1);
+    
+
     
 }
 
@@ -38,18 +49,15 @@ input{
     display: flex;
     float: none;
     box-sizing: border-box;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 15px;
-    padding-left: 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 6px;
+    outline: none;
    
 }
 
 input:focus{
-    outline: none;
+   border-bottom-color: #7A50B4;
 }
 
 button{
@@ -62,14 +70,10 @@ button{
     margin: 0;
     box-sizing: border-box;
     background-image: linear-gradient(to top left, #7A50B4, #4187D2);
-    padding: 0;
     text-align: center;
     color: white;
     line-height: 50px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
+    border: none;
    
 }
 
@@ -82,4 +86,21 @@ button:hover{
     background-color: blue;
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
 
+main form div{
+    gap: 5px;
+}
+
+form{
+    width: 200px;
+}
+
+div.span{
+    text-decoration: none;
+}
